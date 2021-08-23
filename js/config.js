@@ -1,6 +1,6 @@
 var tokenAdderss = '0x1c91b818e244c20732f917fde4c872644bcc544d';
 var pupLpAdderss = '';
-var dogeFarmAddress = '';
+var dogeFarmAddress = '0x2C57FcdC33638FC5af9B0A11041D4663D2E91db1';
 var bnbFarmAddress = '0x63B9C2f15dfEEFF6Cc36E5a619efefd374Ce5270';
 var farms = [{
     id: 'farm5',
@@ -28,7 +28,7 @@ var farms = [{
     earn: 'PDOGE',
     apr: 19600,
     frozen: 7 * 3600 * 24,
-    farmAddress: '',
+    farmAddress: '0x2C57FcdC33638FC5af9B0A11041D4663D2E91db1',
 }, {
     id: 'farm4',
     pid: 3,
@@ -37,7 +37,7 @@ var farms = [{
     earn: 'PDOGE',
     apr: 27400,
     frozen: 14,
-    farmAddress: '',
+    farmAddress: '0x2C57FcdC33638FC5af9B0A11041D4663D2E91db1',
 }, {
     id: 'farm1',
     pid: 0,
@@ -46,7 +46,7 @@ var farms = [{
     earn: 'PDOGE',
     apr: 10000,
     frozen: 7 * 3600 * 24,
-    farmAddress: '',
+    farmAddress: '0x2C57FcdC33638FC5af9B0A11041D4663D2E91db1',
 }, {
     id: 'farm2',
     pid: 1,
@@ -55,7 +55,7 @@ var farms = [{
     earn: 'PDOGE',
     apr: 14000,
     frozen: 14 * 3600 * 24,
-    farmAddress: '',
+    farmAddress: '0x2C57FcdC33638FC5af9B0A11041D4663D2E91db1',
 }]
 var tokenAbi = [{
     "inputs": [],
