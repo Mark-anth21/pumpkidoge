@@ -1,5 +1,5 @@
 App = {
-    init: async(enable = alse) => {
+    init: async(enable = false) => {
         console.log("init:", enable)
         return await App.initWeb3(enable)
     },
