@@ -281,10 +281,10 @@ App = {
                         App.approveTokens(farm, farm.farmAddress);
                     } else {
                         if (farm.deposit === 'PDOGE') {
-                            $('#a-link').attr('href', 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=');
+                            $('#a-link').attr('href', 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x1c91b818e244c20732f917fde4c872644bcc544d');
                             $('#a-link span').html("Get PDoge Token")
                         } else {
-                            $('#a-link').attr('href', 'https://exchange.pancakeswap.finance/#/add/BNB/');
+                            $('#a-link').attr('href', 'https://exchange.pancakeswap.finance/#/add/BNB/0x1c91b818e244c20732f917fde4c872644bcc544d');
                             $('#a-link span').html("Add PDoge-BNB-LP")
                         }
                         $('.deposit-input').val('');
