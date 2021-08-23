@@ -28,7 +28,7 @@ var farms = [{
     earn: 'PDOGE',
     apr: 19600,
     frozen: 7 * 3600 * 24,
-    farmAddress: '0x1c91b818e244c20732f917fde4c872644bcc544d',
+    farmAddress: '',
 }, {
     id: 'farm4',
     pid: 3,
@@ -37,7 +37,7 @@ var farms = [{
     earn: 'PDOGE',
     apr: 27400,
     frozen: 14,
-    farmAddress: '0x1c91b818e244c20732f917fde4c872644bcc544d',
+    farmAddress: '',
 }, {
     id: 'farm1',
     pid: 0,
@@ -46,7 +46,7 @@ var farms = [{
     earn: 'PDOGE',
     apr: 10000,
     frozen: 7 * 3600 * 24,
-    farmAddress: '0x1c91b818e244c20732f917fde4c872644bcc544d',
+    farmAddress: '',
 }, {
     id: 'farm2',
     pid: 1,
@@ -55,7 +55,7 @@ var farms = [{
     earn: 'PDOGE',
     apr: 14000,
     frozen: 14 * 3600 * 24,
-    farmAddress: '0x1c91b818e244c20732f917fde4c872644bcc544d',
+    farmAddress: '',
 }]
 var tokenAbi = [{
     "inputs": [],
